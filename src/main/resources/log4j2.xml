@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30 ">
+    <Properties>
+        <Property name="LOG_PATTERN">
+            [%d(yyyy-MM-dd HH:mm:ss)] [%-5p] [%c{1}:%L] %m%n
+        </Property>
+    </Properties>
+    <Appenders>
+        <RollingFile name="FileAppender" fileName="log/pageReader.log"
+                     filePattern="logs/log4j2-demo-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout>
+                <Pattern>${LOG_PATTERN}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS}  %-4p %4L --- [%15.15t] %-40.40C : %m%n%wEx"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.search.searchengine.crawler.PageReader" level="info" additivity="false">
+            <AppenderRef ref="FileAppender" />
+        </Logger>
+
+        <Logger name="org.springframework" level="info" additivity="false">
+            <AppenderRef ref="Console" />
+        </Logger>
+
+        <Logger name="org.hibernate" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+        </Logger>
+    </Loggers>
+</Configuration>
