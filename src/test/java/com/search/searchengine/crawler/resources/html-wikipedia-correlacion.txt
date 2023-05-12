@@ -1,0 +1,2072 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Correlación - Wikipedia, la enciclopedia libre</title>
+<script>document.documentElement.className="client-js";(function(){var cookie=document.cookie.match(/(?:^|; )eswikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"wgRequestId":"fd929d7b-4601-41dd-aabc-f690b391958a","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Correlación","wgTitle":"Correlación","wgCurRevisionId":149887765,"wgRevisionId":149887765,"wgArticleId":663418,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[
+"Wikipedia:Artículos con enlaces externos rotos","Wikipedia:Artículos con identificadores BNF","Wikipedia:Artículos con identificadores GND","Wikipedia:Artículos con identificadores LCCN","Wikipedia:Artículos con identificadores AAT","Covarianza y correlación"],"wgPageContentLanguage":"es","wgPageContentModel":"wikitext","wgRelevantPageName":"Correlación","wgRelevantArticleId":663418,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"es","pageLanguageDir":"ltr","pageVariantFallbacks":"es"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"español","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,
+"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q186290","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":true,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"ext.gadget.imagenesinfobox":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging",
+"ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.a-commons-directo","ext.gadget.ReferenceTooltips","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.echo.centralauth","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=es&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=ext.gadget.imagenesinfobox&amp;only=styles&amp;skin=vector"/>
+<link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<noscript><link rel="stylesheet" href="/w/load.php?lang=es&amp;modules=noscript&amp;only=styles&amp;skin=vector"/></noscript>
+<meta name="generator" content="MediaWiki 1.41.0-wmf.5"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=1000"/>
+<meta property="og:title" content="Correlación - Wikipedia, la enciclopedia libre"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//es.m.wikipedia.org/wiki/Correlaci%C3%B3n"/>
+<link rel="alternate" type="application/x-wiki" title="Editar" href="/w/index.php?title=Correlaci%C3%B3n&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (es)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//es.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="canonical" href="https://es.wikipedia.org/wiki/Correlaci%C3%B3n"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Canal Atom de Wikipedia" href="/w/index.php?title=Especial:CambiosRecientes&amp;feed=atom"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Correlación rootpage-Correlación skin-vector action-view"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><!-- CentralNotice --></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Correlación</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">De Wikipedia, la enciclopedia libre</div>
+		<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Ir a la navegación</a>
+		<a class="mw-jump-link" href="#searchInput">Ir a la búsqueda</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="es" dir="ltr"><div class="mw-parser-output"><div class="rellink noprint hatnote"> Para otros usos de este término, véase <a href="/wiki/Correlaci%C3%B3n_(desambiguaci%C3%B3n)" class="mw-disambig" title="Correlación (desambiguación)">Correlación (desambiguación)</a>.</div>
+<p>En <a href="/wiki/Probabilidad" title="Probabilidad">probabilidad</a> y <a href="/wiki/Estad%C3%ADstica" title="Estadística">estadística</a>, la <b>correlación</b> indica la fuerza y la dirección de una <a href="/wiki/Funci%C3%B3n_matem%C3%A1tica" class="mw-redirect" title="Función matemática">relación lineal</a> y la <a href="/wiki/Proporcionalidad" title="Proporcionalidad">proporcionalidad</a> entre dos <a href="/wiki/Variable_estad%C3%ADstica" title="Variable estadística">variables estadísticas</a>. Se considera que dos variables cuantitativas están correlacionadas cuando los valores de una de ellas varían sistemáticamente con respecto a los valores homónimos de la otra: si tenemos dos variables (A y B) existe correlación entre ellas si al disminuir los valores de A lo hacen también los de B y viceversa. La correlación entre dos variables no implica, por sí misma, ninguna relación de causalidad (Véase <i><a href="/wiki/Cum_hoc_ergo_propter_hoc" title="Cum hoc ergo propter hoc">cum hoc ergo propter hoc</a></i>). Por  ejemplo, los ingresos y gastos de una familia, la producción y ventas de una fábrica, los gastos en publicidad y beneficios de una empresa.
+</p><p>Una relación funcional se expresa mediante una <a href="/wiki/Funci%C3%B3n_matem%C3%A1tica" class="mw-redirect" title="Función matemática">función matemática</a>. Si <b>X</b> es la variable independiente e <b>Y</b> es la <a href="/wiki/Variable_dependiente" class="mw-redirect" title="Variable dependiente">variable dependiente</a>, una relación funcional tiene la forma: <b>pY</b>=f(<b>X</b>)
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="es" dir="ltr"><h2 id="mw-toc-heading">Índice</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Fuerza,_sentido_y_forma_de_la_correlación"><span class="tocnumber">1</span> <span class="toctext">Fuerza, sentido y forma de la correlación</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Coeficientes_de_correlación"><span class="tocnumber">2</span> <span class="toctext">Coeficientes de correlación</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Interpretación_geométrica"><span class="tocnumber">2.1</span> <span class="toctext">Interpretación geométrica</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Distribución_del_coeficiente_de_correlación"><span class="tocnumber">2.2</span> <span class="toctext">Distribución del coeficiente de correlación</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Distribución_normal_bivariada"><span class="tocnumber">3</span> <span class="toctext">Distribución normal bivariada</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Referencias"><span class="tocnumber">4</span> <span class="toctext">Referencias</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Para_más_información"><span class="tocnumber">5</span> <span class="toctext">Para más información</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Enlaces_externos"><span class="tocnumber">6</span> <span class="toctext">Enlaces externos</span></a></li>
+</ul>
+</div>
+
+<h2><span id="Fuerza.2C_sentido_y_forma_de_la_correlaci.C3.B3n"></span><span class="mw-headline" id="Fuerza,_sentido_y_forma_de_la_correlación">Fuerza, sentido y forma de la correlación</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=edit&amp;section=1" title="Editar sección: Fuerza, sentido y forma de la correlación">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Si representamos cada par de valores como las <a href="/wiki/Coordenada" class="mw-redirect" title="Coordenada">coordenadas</a> de un punto, el  <a href="/wiki/Conjunto" title="Conjunto">conjunto</a> de todos ellos se llama nube de puntos o diagrama de dispersión. La relación entre dos variables cuantitativas queda representada mediante la <a href="/wiki/M%C3%ADnimos_cuadrados" title="Mínimos cuadrados">línea de mejor ajuste</a>, trazada a partir de la nube de puntos. Los principales componentes elementales de una línea de ajuste y, por lo tanto, de una correlación, son la fuerza, el sentido y la forma:
+</p>
+<ul><li>La <b>fuerza</b> extrema según el caso, mide el grado en que la línea representa a la nube de puntos: si la nube es estrecha y alargada, se representa por una línea recta, lo que indica que la relación es <i>fuerte</i>; si la nube de puntos tiene una tendencia elíptica o circular, la relación es <i>débil</i>.</li>
+<li>El <b>sentido</b> mide la variación de los valores de B con respecto a A: si al crecer los valores de A lo hacen los de B, la relación es directa (pendiente positiva); si al crecer los valores de A disminuyen los de B, la relación es inversa (pendiente negativa).</li>
+<li>La <b>forma</b> establece el tipo de línea que define el mejor ajuste: la <a href="/wiki/L%C3%ADnea_recta" class="mw-redirect" title="Línea recta">línea recta</a>, la <a href="/wiki/Funci%C3%B3n_mon%C3%B3tona" title="Función monótona">curva monotónica</a> o la <a href="/w/index.php?title=Curva_no_monot%C3%B3nica&amp;action=edit&amp;redlink=1" class="new" title="Curva no monotónica (aún no redactado)">curva no monotónica</a></li></ul>
+<h2><span id="Coeficientes_de_correlaci.C3.B3n"></span><span class="mw-headline" id="Coeficientes_de_correlación">Coeficientes de correlación</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=edit&amp;section=2" title="Editar sección: Coeficientes de correlación">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Existen diversos coeficientes que miden el grado de correlación, adaptados a la naturaleza de los datos. El más conocido es el <a href="/wiki/Coeficiente_de_correlaci%C3%B3n_de_Pearson" title="Coeficiente de correlación de Pearson">coeficiente de correlación de Pearson</a> (introducido en realidad por <a href="/wiki/Francis_Galton" title="Francis Galton">Francis Galton</a>), que se obtiene dividiendo la <a href="/wiki/Covarianza" title="Covarianza">covarianza</a> de dos variables entre el producto de sus desviaciones estándar. Otros coeficientes son:
+</p>
+<ul><li><a href="/wiki/Coeficiente_de_correlaci%C3%B3n_de_Spearman" title="Coeficiente de correlación de Spearman">Coeficiente de correlación de Spearman</a></li>
+<li><a href="/wiki/Correlaci%C3%B3n_can%C3%B3nica" class="mw-redirect" title="Correlación canónica">Correlación canónica</a></li></ul>
+<h3><span id="Interpretaci.C3.B3n_geom.C3.A9trica"></span><span class="mw-headline" id="Interpretación_geométrica">Interpretación geométrica</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=edit&amp;section=3" title="Editar sección: Interpretación geométrica">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Dados los valores muestrales de dos variables aleatorias <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle X(x_{1},\ldots ,x_{n})}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>X</mi>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <mo>&#x2026;<!-- … --></mo>
+        <mo>,</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle X(x_{1},\ldots ,x_{n})}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4e3e00c3cfc6d9eccb3b1aeb88b1b0da2f68be48" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:13.9ex; height:2.843ex;" alt="{\displaystyle X(x_{1},\ldots ,x_{n})}"/></span> e <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle Y(y_{1},\ldots ,y_{n})}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Y</mi>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>y</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <mo>&#x2026;<!-- … --></mo>
+        <mo>,</mo>
+        <msub>
+          <mi>y</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle Y(y_{1},\ldots ,y_{n})}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/455c76e86e78e9436ae113ab34ab24c4f70720e5" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:13.312ex; height:2.843ex;" alt="{\displaystyle Y(y_{1},\ldots ,y_{n})}"/></span>, que pueden ser consideradas como vectores en un espacio de <i>n</i> dimensiones, pueden construirse los "vectores centrados" como:
+</p>
+<blockquote style="padding: 5px 10px; background-color: white; color: black; text-align: left; margin-left:30px; margin-bottom: 0.4em; margin-top:0.2em; min-width:50%;">
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle X(x_{1}-{\bar {x}},\ldots ,x_{n}-{\bar {x}})}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>X</mi>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>&#x2212;<!-- − --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>x</mi>
+              <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+            </mover>
+          </mrow>
+        </mrow>
+        <mo>,</mo>
+        <mo>&#x2026;<!-- … --></mo>
+        <mo>,</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo>&#x2212;<!-- − --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>x</mi>
+              <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+            </mover>
+          </mrow>
+        </mrow>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle X(x_{1}-{\bar {x}},\ldots ,x_{n}-{\bar {x}})}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d3ad9252e063b82f5c39e5e245197aa9d3ccc49a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:22.24ex; height:2.843ex;" alt="{\displaystyle X(x_{1}-{\bar {x}},\ldots ,x_{n}-{\bar {x}})}"/></span> e <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle Y(y_{1}-{\bar {y}},\ldots ,y_{n}-{\bar {y}})}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Y</mi>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>y</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>&#x2212;<!-- − --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>y</mi>
+              <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+            </mover>
+          </mrow>
+        </mrow>
+        <mo>,</mo>
+        <mo>&#x2026;<!-- … --></mo>
+        <mo>,</mo>
+        <msub>
+          <mi>y</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo>&#x2212;<!-- − --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>y</mi>
+              <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+            </mover>
+          </mrow>
+        </mrow>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle Y(y_{1}-{\bar {y}},\ldots ,y_{n}-{\bar {y}})}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/da58922ba269ce01c972c5f2b501a805a7464e15" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:21.597ex; height:2.843ex;" alt="{\displaystyle Y(y_{1}-{\bar {y}},\ldots ,y_{n}-{\bar {y}})}"/></span>.
+</p>
+</blockquote>
+<p>El coseno del ángulo alfa entre estos vectores es dado por la fórmula siguiente:
+</p>
+<blockquote style="padding: 5px 10px; background-color: white; color: black; text-align: left; margin-left:30px; margin-bottom: 0.4em; margin-top:0.2em; min-width:50%;">
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle r=\cos(\alpha )={\dfrac {\displaystyle \sum _{i=1}^{N}(x_{i}-{\bar {x}})\cdot (y_{i}-{\bar {y}})}{{\sqrt {\displaystyle \sum _{i=1}^{N}(x_{i}-{\bar {x}})^{2}}}\cdot {\sqrt {\displaystyle \sum _{i=1}^{N}(y_{i}-{\bar {y}})^{2}}}}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>r</mi>
+        <mo>=</mo>
+        <mi>cos</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mstyle displaystyle="true" scriptlevel="0">
+            <mfrac>
+              <mstyle displaystyle="true" scriptlevel="0">
+                <munderover>
+                  <mo>&#x2211;<!-- ∑ --></mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>i</mi>
+                    <mo>=</mo>
+                    <mn>1</mn>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>N</mi>
+                  </mrow>
+                </munderover>
+                <mo stretchy="false">(</mo>
+                <msub>
+                  <mi>x</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>i</mi>
+                  </mrow>
+                </msub>
+                <mo>&#x2212;<!-- − --></mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mover>
+                      <mi>x</mi>
+                      <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                    </mover>
+                  </mrow>
+                </mrow>
+                <mo stretchy="false">)</mo>
+                <mo>&#x22C5;<!-- ⋅ --></mo>
+                <mo stretchy="false">(</mo>
+                <msub>
+                  <mi>y</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>i</mi>
+                  </mrow>
+                </msub>
+                <mo>&#x2212;<!-- − --></mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mover>
+                      <mi>y</mi>
+                      <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                    </mover>
+                  </mrow>
+                </mrow>
+                <mo stretchy="false">)</mo>
+              </mstyle>
+              <mrow>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <msqrt>
+                    <mstyle displaystyle="true" scriptlevel="0">
+                      <munderover>
+                        <mo>&#x2211;<!-- ∑ --></mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>i</mi>
+                          <mo>=</mo>
+                          <mn>1</mn>
+                        </mrow>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>N</mi>
+                        </mrow>
+                      </munderover>
+                      <mo stretchy="false">(</mo>
+                      <msub>
+                        <mi>x</mi>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>i</mi>
+                        </mrow>
+                      </msub>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mover>
+                            <mi>x</mi>
+                            <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                          </mover>
+                        </mrow>
+                      </mrow>
+                      <msup>
+                        <mo stretchy="false">)</mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mn>2</mn>
+                        </mrow>
+                      </msup>
+                    </mstyle>
+                  </msqrt>
+                </mrow>
+                <mo>&#x22C5;<!-- ⋅ --></mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <msqrt>
+                    <mstyle displaystyle="true" scriptlevel="0">
+                      <munderover>
+                        <mo>&#x2211;<!-- ∑ --></mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>i</mi>
+                          <mo>=</mo>
+                          <mn>1</mn>
+                        </mrow>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>N</mi>
+                        </mrow>
+                      </munderover>
+                      <mo stretchy="false">(</mo>
+                      <msub>
+                        <mi>y</mi>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>i</mi>
+                        </mrow>
+                      </msub>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mover>
+                            <mi>y</mi>
+                            <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                          </mover>
+                        </mrow>
+                      </mrow>
+                      <msup>
+                        <mo stretchy="false">)</mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mn>2</mn>
+                        </mrow>
+                      </msup>
+                    </mstyle>
+                  </msqrt>
+                </mrow>
+              </mrow>
+            </mfrac>
+          </mstyle>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle r=\cos(\alpha )={\dfrac {\displaystyle \sum _{i=1}^{N}(x_{i}-{\bar {x}})\cdot (y_{i}-{\bar {y}})}{{\sqrt {\displaystyle \sum _{i=1}^{N}(x_{i}-{\bar {x}})^{2}}}\cdot {\sqrt {\displaystyle \sum _{i=1}^{N}(y_{i}-{\bar {y}})^{2}}}}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d6ca8a359afcf9c7f66399cc182692ef87a90a2b" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -7.671ex; width:45.894ex; height:16.009ex;" alt="{\displaystyle r=\cos(\alpha )={\dfrac {\displaystyle \sum _{i=1}^{N}(x_{i}-{\bar {x}})\cdot (y_{i}-{\bar {y}})}{{\sqrt {\displaystyle \sum _{i=1}^{N}(x_{i}-{\bar {x}})^{2}}}\cdot {\sqrt {\displaystyle \sum _{i=1}^{N}(y_{i}-{\bar {y}})^{2}}}}}}"/></span>
+</p>
+</blockquote>
+<p>Pues <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \cos(\alpha )}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>cos</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \cos(\alpha )}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8323c66f99d1f3b7e0858fb92b0644fb0b8fba8a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:6.408ex; height:2.843ex;" alt="{\displaystyle \cos(\alpha )}"/></span> es el coeficiente de correlación muestral de Pearson. El coeficiente de correlación es el <a href="/wiki/Coseno" title="Coseno">coseno</a> del ángulo entre ambos vectores centrados:
+</p>
+<ul><li>Si <i>r</i> = 1, el ángulo <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \alpha =0}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo>=</mo>
+        <mn>0</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \alpha =0}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/30cc00f65bbc630448311dd2dc82e7ce5e90985a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:5.749ex; height:2.176ex;" alt="{\displaystyle \alpha =0}"/></span>°, ambos vectores son colineales (paralelos).</li>
+<li>Si <i>r</i> = 0, el ángulo <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \alpha =90}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo>=</mo>
+        <mn>90</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \alpha =90}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/725d8198b6965cf57fb85729383b896526aff2d4" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:6.911ex; height:2.176ex;" alt="{\displaystyle \alpha =90}"/></span>°, ambos vectores son ortogonales.</li>
+<li>Si <i>r</i> =-1, el ángulo <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \alpha =180}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo>=</mo>
+        <mn>180</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \alpha =180}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dcbb6cb531a8502ce5806b8affbdf71206f8b50e" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:8.073ex; height:2.176ex;" alt="{\displaystyle \alpha =180}"/></span>°, ambos vectores son colineales de dirección opuesto.</li></ul>
+<p>Más generalmente: <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \alpha =\arccos(r)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>&#x03B1;<!-- α --></mi>
+        <mo>=</mo>
+        <mi>arccos</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \alpha =\arccos(r)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0972da28602372e9880004aa3138cc175f816e7f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:13.662ex; height:2.843ex;" alt="{\displaystyle \alpha =\arccos(r)}"/></span>.
+</p><p>Por supuesto, desde el punto vista geométrico, no hablamos de <i>correlación lineal</i>: el coeficiente de correlación tiene siempre un sentido, cualquiera sea su valor entre -1 y 1. Nos informa de modo preciso, no tanto sobre el grado de dependencia entre las variables, sino sobre su distancia angular en la <a href="/wiki/Hiperesfera" class="mw-redirect" title="Hiperesfera">hiperesfera</a> de <i>n</i> dimensiones.
+</p><p>La <a href="/wiki/Iconograf%C3%ADa_de_las_correlaciones" title="Iconografía de las correlaciones">Iconografía de las correlaciones</a> es un método de análisis multidimensional que reposa en esta idea. La correlación lineal se da cuando en una nube de puntos se encuentran o se distribuyen alrededor de una recta.
+</p><p>La fórmula de correlación para dos series distintas con cierto desfase "k", está dada por la fórmula:
+</p>
+<blockquote style="padding: 5px 10px; background-color: white; color: black; text-align: left; margin-left:30px; margin-bottom: 0.4em; margin-top:0.2em; min-width:50%;">
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle r_{k}={\dfrac {\displaystyle \sum _{i=1}^{N-k}(x_{i}-{\bar {x}})\cdot (y_{i+k}-{\bar {y}})}{{\sqrt {\displaystyle \sum _{i=1}^{N-k}(x_{i}-{\bar {x}})^{2}}}\cdot {\sqrt {\displaystyle \sum _{i=k+1}^{N}(y_{i}-{\bar {y}})^{2}}}}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>r</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>k</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mstyle displaystyle="true" scriptlevel="0">
+            <mfrac>
+              <mstyle displaystyle="true" scriptlevel="0">
+                <munderover>
+                  <mo>&#x2211;<!-- ∑ --></mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>i</mi>
+                    <mo>=</mo>
+                    <mn>1</mn>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>N</mi>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mi>k</mi>
+                  </mrow>
+                </munderover>
+                <mo stretchy="false">(</mo>
+                <msub>
+                  <mi>x</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>i</mi>
+                  </mrow>
+                </msub>
+                <mo>&#x2212;<!-- − --></mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mover>
+                      <mi>x</mi>
+                      <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                    </mover>
+                  </mrow>
+                </mrow>
+                <mo stretchy="false">)</mo>
+                <mo>&#x22C5;<!-- ⋅ --></mo>
+                <mo stretchy="false">(</mo>
+                <msub>
+                  <mi>y</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>i</mi>
+                    <mo>+</mo>
+                    <mi>k</mi>
+                  </mrow>
+                </msub>
+                <mo>&#x2212;<!-- − --></mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mover>
+                      <mi>y</mi>
+                      <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                    </mover>
+                  </mrow>
+                </mrow>
+                <mo stretchy="false">)</mo>
+              </mstyle>
+              <mrow>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <msqrt>
+                    <mstyle displaystyle="true" scriptlevel="0">
+                      <munderover>
+                        <mo>&#x2211;<!-- ∑ --></mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>i</mi>
+                          <mo>=</mo>
+                          <mn>1</mn>
+                        </mrow>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>N</mi>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mi>k</mi>
+                        </mrow>
+                      </munderover>
+                      <mo stretchy="false">(</mo>
+                      <msub>
+                        <mi>x</mi>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>i</mi>
+                        </mrow>
+                      </msub>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mover>
+                            <mi>x</mi>
+                            <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                          </mover>
+                        </mrow>
+                      </mrow>
+                      <msup>
+                        <mo stretchy="false">)</mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mn>2</mn>
+                        </mrow>
+                      </msup>
+                    </mstyle>
+                  </msqrt>
+                </mrow>
+                <mo>&#x22C5;<!-- ⋅ --></mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <msqrt>
+                    <mstyle displaystyle="true" scriptlevel="0">
+                      <munderover>
+                        <mo>&#x2211;<!-- ∑ --></mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>i</mi>
+                          <mo>=</mo>
+                          <mi>k</mi>
+                          <mo>+</mo>
+                          <mn>1</mn>
+                        </mrow>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>N</mi>
+                        </mrow>
+                      </munderover>
+                      <mo stretchy="false">(</mo>
+                      <msub>
+                        <mi>y</mi>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mi>i</mi>
+                        </mrow>
+                      </msub>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mover>
+                            <mi>y</mi>
+                            <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+                          </mover>
+                        </mrow>
+                      </mrow>
+                      <msup>
+                        <mo stretchy="false">)</mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mn>2</mn>
+                        </mrow>
+                      </msup>
+                    </mstyle>
+                  </msqrt>
+                </mrow>
+              </mrow>
+            </mfrac>
+          </mstyle>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle r_{k}={\dfrac {\displaystyle \sum _{i=1}^{N-k}(x_{i}-{\bar {x}})\cdot (y_{i+k}-{\bar {y}})}{{\sqrt {\displaystyle \sum _{i=1}^{N-k}(x_{i}-{\bar {x}})^{2}}}\cdot {\sqrt {\displaystyle \sum _{i=k+1}^{N}(y_{i}-{\bar {y}})^{2}}}}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e3d3ffe6b2c7a19ecf67f8c21e66df62e54b07ae" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -7.838ex; width:39.164ex; height:16.176ex;" alt="{\displaystyle r_{k}={\dfrac {\displaystyle \sum _{i=1}^{N-k}(x_{i}-{\bar {x}})\cdot (y_{i+k}-{\bar {y}})}{{\sqrt {\displaystyle \sum _{i=1}^{N-k}(x_{i}-{\bar {x}})^{2}}}\cdot {\sqrt {\displaystyle \sum _{i=k+1}^{N}(y_{i}-{\bar {y}})^{2}}}}}}"/></span>
+</p>
+</blockquote>
+<h3><span id="Distribuci.C3.B3n_del_coeficiente_de_correlaci.C3.B3n"></span><span class="mw-headline" id="Distribución_del_coeficiente_de_correlación">Distribución del coeficiente de correlación</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=edit&amp;section=4" title="Editar sección: Distribución del coeficiente de correlación">editar</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>El coeficiente de correlación muestral o analítico de una muestra es de hecho una <a href="/wiki/Variable_aleatoria" title="Variable aleatoria">variable aleatoria</a>, eso significa que si repetimos un experimento o consideramos diferentes muestras se obtendrán valores diferentes y por tanto el coeficiente de correlación muestral calculado a partir de ellas tendrá valores ligeramente diferentes. Para muestras grandes la variación en dicho coeficiente será menor que para muestras pequeñas. R. A. Fisher fue el primero en determinar la <a href="/wiki/Distribuci%C3%B3n_de_probabilidad" title="Distribución de probabilidad">distribución de probabilidad</a> para el coeficiente de correlación.
+</p><p>Si las dos variables aleatorias que trata de relacionarse proceden de una distribución gaussiana bivariante entonces el coeficiente de correlación <i>r</i> sigue una distribución de probabilidad dada por:<sup id="cite_ref-1" class="reference separada"><a href="#cite_note-1"><span class="corchete-llamada">[</span>1<span class="corchete-llamada">]</span></a></sup>&#8203;<sup id="cite_ref-2" class="reference separada"><a href="#cite_note-2"><span class="corchete-llamada">[</span>2<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p>
+<blockquote style="padding: 5px 10px; background-color: white; color: black; text-align: left; margin-left:30px; margin-bottom: 0.4em; margin-top:0.2em; min-width:50%;">
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle f\left(r\right)={\frac {\left(n-2\right)\,\mathbf {\Gamma } \left(n-1\right)\left(1-\rho ^{2}\right)^{\frac {n-1}{2}}\left(1-r^{2}\right)^{\frac {n-4}{2}}}{{\sqrt {2\pi }}\,\mathbf {\Gamma } \left(n-{\frac {1}{2}}\right)\left(1-\rho r\right)^{n-{\frac {3}{2}}}}}\,\mathbf {_{2}F_{1}} \left({\frac {1}{2}},{\frac {1}{2}};{\frac {2n-1}{2}};{\frac {\rho r+1}{2}}\right)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>f</mi>
+        <mrow>
+          <mo>(</mo>
+          <mi>r</mi>
+          <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mrow>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mi>n</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mn>2</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mspace width="thinmathspace" />
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi mathvariant="bold">&#x0393;<!-- Γ --></mi>
+              </mrow>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mi>n</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mn>1</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                    <mn>1</mn>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <msup>
+                      <mi>&#x03C1;<!-- ρ --></mi>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mn>2</mn>
+                      </mrow>
+                    </msup>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac>
+                    <mrow>
+                      <mi>n</mi>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mn>1</mn>
+                    </mrow>
+                    <mn>2</mn>
+                  </mfrac>
+                </mrow>
+              </msup>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                    <mn>1</mn>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <msup>
+                      <mi>r</mi>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mn>2</mn>
+                      </mrow>
+                    </msup>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac>
+                    <mrow>
+                      <mi>n</mi>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mn>4</mn>
+                    </mrow>
+                    <mn>2</mn>
+                  </mfrac>
+                </mrow>
+              </msup>
+            </mrow>
+            <mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <msqrt>
+                  <mn>2</mn>
+                  <mi>&#x03C0;<!-- π --></mi>
+                </msqrt>
+              </mrow>
+              <mspace width="thinmathspace" />
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi mathvariant="bold">&#x0393;<!-- Γ --></mi>
+              </mrow>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mi>n</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mn>1</mn>
+                      <mn>2</mn>
+                    </mfrac>
+                  </mrow>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                    <mn>1</mn>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mi>&#x03C1;<!-- ρ --></mi>
+                    <mi>r</mi>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>n</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mn>3</mn>
+                      <mn>2</mn>
+                    </mfrac>
+                  </mrow>
+                </mrow>
+              </msup>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mspace width="thinmathspace" />
+        <mrow class="MJX-TeXAtom-ORD">
+          <msub>
+            <mi></mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mn mathvariant="bold">2</mn>
+            </mrow>
+          </msub>
+          <msub>
+            <mi mathvariant="bold">F</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mn mathvariant="bold">1</mn>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+            <mo>,</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+            <mo>;</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mrow>
+                  <mn>2</mn>
+                  <mi>n</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mn>1</mn>
+                </mrow>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+            <mo>;</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mrow>
+                  <mi>&#x03C1;<!-- ρ --></mi>
+                  <mi>r</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+                </mrow>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle f\left(r\right)={\frac {\left(n-2\right)\,\mathbf {\Gamma } \left(n-1\right)\left(1-\rho ^{2}\right)^{\frac {n-1}{2}}\left(1-r^{2}\right)^{\frac {n-4}{2}}}{{\sqrt {2\pi }}\,\mathbf {\Gamma } \left(n-{\frac {1}{2}}\right)\left(1-\rho r\right)^{n-{\frac {3}{2}}}}}\,\mathbf {_{2}F_{1}} \left({\frac {1}{2}},{\frac {1}{2}};{\frac {2n-1}{2}};{\frac {\rho r+1}{2}}\right)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/199d72f5465c2e9672d9034359b6de78768ebd32" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -4.171ex; width:79.62ex; height:9.676ex;" alt="{\displaystyle f\left(r\right)={\frac {\left(n-2\right)\,\mathbf {\Gamma } \left(n-1\right)\left(1-\rho ^{2}\right)^{\frac {n-1}{2}}\left(1-r^{2}\right)^{\frac {n-4}{2}}}{{\sqrt {2\pi }}\,\mathbf {\Gamma } \left(n-{\frac {1}{2}}\right)\left(1-\rho r\right)^{n-{\frac {3}{2}}}}}\,\mathbf {_{2}F_{1}} \left({\frac {1}{2}},{\frac {1}{2}};{\frac {2n-1}{2}};{\frac {\rho r+1}{2}}\right)}"/></span>
+</p>
+</blockquote>
+<p>donde:
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \mathbf {\Gamma } }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="bold">&#x0393;<!-- Γ --></mi>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbf {\Gamma } }</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0598e65919f9e2d3646f15d6a489a1b4dc47025f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.608ex; height:2.176ex;" alt="{\displaystyle \mathbf {\Gamma } }"/></span> es la <a href="/wiki/Distribuci%C3%B3n_gamma" title="Distribución gamma">distribución gamma</a></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \,\mathbf {_{2}F_{1}} (a,b;c;z)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mspace width="thinmathspace" />
+        <mrow class="MJX-TeXAtom-ORD">
+          <msub>
+            <mi></mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mn mathvariant="bold">2</mn>
+            </mrow>
+          </msub>
+          <msub>
+            <mi mathvariant="bold">F</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mn mathvariant="bold">1</mn>
+            </mrow>
+          </msub>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi>a</mi>
+        <mo>,</mo>
+        <mi>b</mi>
+        <mo>;</mo>
+        <mi>c</mi>
+        <mo>;</mo>
+        <mi>z</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \,\mathbf {_{2}F_{1}} (a,b;c;z)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/081db2b1dc2b094ad34d3252bce27a7042ad37f5" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:13.658ex; height:2.843ex;" alt="{\displaystyle \,\mathbf {_{2}F_{1}} (a,b;c;z)}"/></span> es la <a href="/wiki/Funci%C3%B3n_hipergeom%C3%A9trica" title="Función hipergeométrica">función gaussiana hipergeométrica</a>.</dd></dl>
+<p>Nótese que el valor esperado del coeficiente de correlación muestral <i>r</i> es:
+</p>
+<blockquote style="padding: 5px 10px; background-color: white; color: black; text-align: left; margin-left:30px; margin-bottom: 0.4em; margin-top:0.2em; min-width:50%;">
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \mathbb {E} \left(r\right)=\rho -{\frac {\rho \left(1-\rho ^{2}\right)}{2\left(n-1\right)}}+\cdots }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">E</mi>
+        </mrow>
+        <mrow>
+          <mo>(</mo>
+          <mi>r</mi>
+          <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mi>&#x03C1;<!-- ρ --></mi>
+        <mo>&#x2212;<!-- − --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mrow>
+              <mi>&#x03C1;<!-- ρ --></mi>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mn>1</mn>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <msup>
+                    <mi>&#x03C1;<!-- ρ --></mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mn>2</mn>
+                    </mrow>
+                  </msup>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mi>n</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mn>1</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo>+</mo>
+        <mo>&#x22EF;<!-- ⋯ --></mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbb {E} \left(r\right)=\rho -{\frac {\rho \left(1-\rho ^{2}\right)}{2\left(n-1\right)}}+\cdots }</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a1025da12974987f7f466ca5ed326104084874ee" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.671ex; width:28.314ex; height:6.843ex;" alt="{\displaystyle \mathbb {E} \left(r\right)=\rho -{\frac {\rho \left(1-\rho ^{2}\right)}{2\left(n-1\right)}}+\cdots }"/></span>
+</p>
+</blockquote>
+<p>por tanto, <i>r</i> es <a href="/wiki/Estimador" title="Estimador">estimador</a> sesgado de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \,\rho }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mspace width="thinmathspace" />
+        <mi>&#x03C1;<!-- ρ --></mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \,\rho }</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/98a068125829a613fd42567cc0377d6a40c3ef6a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:1.589ex; height:2.176ex;" alt="{\displaystyle \,\rho }"/></span>. Puede obtenerse un estimador aproximado no sesgado resolviendo la ecuación:
+</p>
+<blockquote style="padding: 5px 10px; background-color: white; color: black; text-align: left; margin-left:30px; margin-bottom: 0.4em; margin-top:0.2em; min-width:50%;">
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\bar {r}}=\mathbb {E} \left(r\right)=\rho -{\frac {\rho \left(1-\rho ^{2}\right)}{2\left(n-1\right)}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>r</mi>
+              <mo stretchy="false">&#x00AF;<!-- ¯ --></mo>
+            </mover>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">E</mi>
+        </mrow>
+        <mrow>
+          <mo>(</mo>
+          <mi>r</mi>
+          <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mi>&#x03C1;<!-- ρ --></mi>
+        <mo>&#x2212;<!-- − --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mrow>
+              <mi>&#x03C1;<!-- ρ --></mi>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mn>1</mn>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <msup>
+                    <mi>&#x03C1;<!-- ρ --></mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mn>2</mn>
+                    </mrow>
+                  </msup>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mi>n</mi>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <mn>1</mn>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\bar {r}}=\mathbb {E} \left(r\right)=\rho -{\frac {\rho \left(1-\rho ^{2}\right)}{2\left(n-1\right)}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ebfa2076a95c8ffcd4f760c2ad66b114400a3e86" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.671ex; width:27.14ex; height:6.843ex;" alt="{\displaystyle {\bar {r}}=\mathbb {E} \left(r\right)=\rho -{\frac {\rho \left(1-\rho ^{2}\right)}{2\left(n-1\right)}}}"/></span> para <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \,\rho }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mspace width="thinmathspace" />
+        <mi>&#x03C1;<!-- ρ --></mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \,\rho }</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/98a068125829a613fd42567cc0377d6a40c3ef6a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:1.589ex; height:2.176ex;" alt="{\displaystyle \,\rho }"/></span>
+</p>
+</blockquote>
+<p>Aunque, la solución:
+</p>
+<blockquote style="padding: 5px 10px; background-color: white; color: black; text-align: left; margin-left:30px; margin-bottom: 0.4em; margin-top:0.2em; min-width:50%;">
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\rho }=r\left[1+{\frac {1-r^{2}}{2\left(n-1\right)}}\right]}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi>&#x03C1;<!-- ρ --></mi>
+        </mrow>
+        <mo>=</mo>
+        <mi>r</mi>
+        <mrow>
+          <mo>[</mo>
+          <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mrow>
+                  <mn>1</mn>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <msup>
+                    <mi>r</mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mn>2</mn>
+                    </mrow>
+                  </msup>
+                </mrow>
+                <mrow>
+                  <mn>2</mn>
+                  <mrow>
+                    <mo>(</mo>
+                    <mrow>
+                      <mi>n</mi>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mn>1</mn>
+                    </mrow>
+                    <mo>)</mo>
+                  </mrow>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </mrow>
+          <mo>]</mo>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\rho }=r\left[1+{\frac {1-r^{2}}{2\left(n-1\right)}}\right]}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0d68c13b73ae863f666afd6373404c4d94832b72" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.671ex; width:21.787ex; height:6.509ex;" alt="{\displaystyle {\rho }=r\left[1+{\frac {1-r^{2}}{2\left(n-1\right)}}\right]}"/></span>
+</p>
+</blockquote>
+<p>es subóptima. Se puede obtener un estimador sesgado con mínima varianza para grandes valores de <i>n</i>, con sesgo de orden <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\frac {1}{n-1}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mn>1</mn>
+            <mrow>
+              <mi>n</mi>
+              <mo>&#x2212;<!-- − --></mo>
+              <mn>1</mn>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\frac {1}{n-1}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d8a7d9e522b7aaffe150dbac4105f61c1c27fbcb" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.005ex; width:6.234ex; height:5.343ex;" alt="{\displaystyle {\frac {1}{n-1}}}"/></span> buscando el máximo de la expresión:
+</p>
+<blockquote style="padding: 5px 10px; background-color: white; color: black; text-align: left; margin-left:30px; margin-bottom: 0.4em; margin-top:0.2em; min-width:50%;">
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \log {f\left(r\right)}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>log</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi>f</mi>
+          <mrow>
+            <mo>(</mo>
+            <mi>r</mi>
+            <mo>)</mo>
+          </mrow>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \log {f\left(r\right)}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4d34df2c8bfd9b8827cfc27f36c83103937e78bd" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:7.882ex; height:2.843ex;" alt="{\displaystyle \log {f\left(r\right)}}"/></span>, i.e. <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle {\hat {\rho }}=r\left[1-{\frac {1-r^{2}}{2\left(n-1\right)}}\right]}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mover>
+              <mi>&#x03C1;<!-- ρ --></mi>
+              <mo stretchy="false">&#x005E;<!-- ^ --></mo>
+            </mover>
+          </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mi>r</mi>
+        <mrow>
+          <mo>[</mo>
+          <mrow>
+            <mn>1</mn>
+            <mo>&#x2212;<!-- − --></mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mrow>
+                  <mn>1</mn>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <msup>
+                    <mi>r</mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mn>2</mn>
+                    </mrow>
+                  </msup>
+                </mrow>
+                <mrow>
+                  <mn>2</mn>
+                  <mrow>
+                    <mo>(</mo>
+                    <mrow>
+                      <mi>n</mi>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mn>1</mn>
+                    </mrow>
+                    <mo>)</mo>
+                  </mrow>
+                </mrow>
+              </mfrac>
+            </mrow>
+          </mrow>
+          <mo>]</mo>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\hat {\rho }}=r\left[1-{\frac {1-r^{2}}{2\left(n-1\right)}}\right]}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ca0d8412be5001c355ee56bce88d2fe2fbb7f997" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.671ex; width:21.96ex; height:6.509ex;" alt="{\displaystyle {\hat {\rho }}=r\left[1-{\frac {1-r^{2}}{2\left(n-1\right)}}\right]}"/></span>
+</p>
+</blockquote>
+<p>En el caso especial de que <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \,\rho =0}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mspace width="thinmathspace" />
+        <mi>&#x03C1;<!-- ρ --></mi>
+        <mo>=</mo>
+        <mn>0</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \,\rho =0}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/931cd3a9f1c1d4047cac0f3f2f1d665fdbf4ebb0" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:5.85ex; height:2.676ex;" alt="{\displaystyle \,\rho =0}"/></span>, la distribución original puede ser reescrita como:
+</p>
+<blockquote style="padding: 5px 10px; background-color: white; color: black; text-align: left; margin-left:30px; margin-bottom: 0.4em; margin-top:0.2em; min-width:50%;">
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle f\left(r\right)={\frac {\left(1-r^{2}\right)^{\frac {n-4}{2}}}{\mathbf {B} \left({\frac {1}{2}},{\frac {n-2}{2}}\right)}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>f</mi>
+        <mrow>
+          <mo>(</mo>
+          <mi>r</mi>
+          <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <msup>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mn>1</mn>
+                  <mo>&#x2212;<!-- − --></mo>
+                  <msup>
+                    <mi>r</mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mn>2</mn>
+                    </mrow>
+                  </msup>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mfrac>
+                  <mrow>
+                    <mi>n</mi>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>4</mn>
+                  </mrow>
+                  <mn>2</mn>
+                </mfrac>
+              </mrow>
+            </msup>
+            <mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi mathvariant="bold">B</mi>
+              </mrow>
+              <mrow>
+                <mo>(</mo>
+                <mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mn>1</mn>
+                      <mn>2</mn>
+                    </mfrac>
+                  </mrow>
+                  <mo>,</mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mrow>
+                        <mi>n</mi>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>2</mn>
+                      </mrow>
+                      <mn>2</mn>
+                    </mfrac>
+                  </mrow>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle f\left(r\right)={\frac {\left(1-r^{2}\right)^{\frac {n-4}{2}}}{\mathbf {B} \left({\frac {1}{2}},{\frac {n-2}{2}}\right)}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/39facd6b21526220ea7353647288f3b6a63580c3" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -4.505ex; width:20.268ex; height:10.009ex;" alt="{\displaystyle f\left(r\right)={\frac {\left(1-r^{2}\right)^{\frac {n-4}{2}}}{\mathbf {B} \left({\frac {1}{2}},{\frac {n-2}{2}}\right)}}}"/></span>
+</p>
+</blockquote>
+<p>donde <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \mathbf {B} }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="bold">B</mi>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbf {B} }</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cafb0ef39b0f5ffa23c170aa7f7b4e718327c4d1" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.901ex; height:2.176ex;" alt="{\displaystyle \mathbf {B} }"/></span> es la <a href="/wiki/Funci%C3%B3n_beta" title="Función beta">función beta</a>.
+</p>
+<h2><span id="Distribuci.C3.B3n_normal_bivariada"></span><span class="mw-headline" id="Distribución_normal_bivariada">Distribución normal bivariada</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=edit&amp;section=5" title="Editar sección: Distribución normal bivariada">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Si un par de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle (X,Y)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo stretchy="false">(</mo>
+        <mi>X</mi>
+        <mo>,</mo>
+        <mi>Y</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle (X,Y)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/41f29b9537685f499713112d6802e811cbf51bba" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:6.597ex; height:2.843ex;" alt="{\displaystyle (X,Y)}"/></span> de variables aleatorias sigue una <a href="/w/index.php?title=Distribuci%C3%B3n_normal_bivariada&amp;action=edit&amp;redlink=1" class="new" title="Distribución normal bivariada (aún no redactado)">distribución normal bivariada</a>, la media condicional <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \operatorname {E} (X\mid Y)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi mathvariant="normal">E</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>X</mi>
+        <mo>&#x2223;<!-- ∣ --></mo>
+        <mi>Y</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {E} (X\mid Y)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/94b5fb7371b8db99b7ad0fd5de6ab1c3ecf42e25" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:9.083ex; height:2.843ex;" alt="{\displaystyle \operatorname {E} (X\mid Y)}"/></span> es una función lineal de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle Y}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Y</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle Y}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/961d67d6b454b4df2301ac571808a3538b3a6d3f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.171ex; width:1.773ex; height:2.009ex;" alt="Y"/></span>, y la media condicional <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \operatorname {E} (Y\mid X)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi mathvariant="normal">E</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>Y</mi>
+        <mo>&#x2223;<!-- ∣ --></mo>
+        <mi>X</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {E} (Y\mid X)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5a4fb746bdafbfa9dba63118127b8307410e2a95" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:9.083ex; height:2.843ex;" alt="{\displaystyle \operatorname {E} (Y\mid X)}"/></span> es una función lineal de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle X}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>X</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle X}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/68baa052181f707c662844a465bfeeb135e82bab" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.98ex; height:2.176ex;" alt="X"/></span>. El coeficiente de correlación <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \rho _{X,Y}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>&#x03C1;<!-- ρ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>X</mi>
+            <mo>,</mo>
+            <mi>Y</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \rho _{X,Y}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/722f0de20522fdccaab8cd208d982c45fc5ce39a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.005ex; width:4.546ex; height:2.343ex;" alt="{\displaystyle \rho _{X,Y}}"/></span> entre <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle X}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>X</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle X}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/68baa052181f707c662844a465bfeeb135e82bab" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.98ex; height:2.176ex;" alt="X"/></span> y <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle Y}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Y</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle Y}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/961d67d6b454b4df2301ac571808a3538b3a6d3f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.171ex; width:1.773ex; height:2.009ex;" alt="Y"/></span>, junto con las medias y varianzas <a href="/wiki/Distribuci%C3%B3n_marginal" title="Distribución marginal">marginales</a> de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle X}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>X</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle X}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/68baa052181f707c662844a465bfeeb135e82bab" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.98ex; height:2.176ex;" alt="X"/></span> y <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle Y}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Y</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle Y}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/961d67d6b454b4df2301ac571808a3538b3a6d3f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.171ex; width:1.773ex; height:2.009ex;" alt="Y"/></span>, determina esta relación lineal:
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \operatorname {E} (Y\mid X)=\operatorname {E} (Y)+\rho _{X,Y}\cdot \sigma _{Y}{\frac {X-\operatorname {E} (X)}{\sigma _{X}}},}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi mathvariant="normal">E</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>Y</mi>
+        <mo>&#x2223;<!-- ∣ --></mo>
+        <mi>X</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mi mathvariant="normal">E</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>Y</mi>
+        <mo stretchy="false">)</mo>
+        <mo>+</mo>
+        <msub>
+          <mi>&#x03C1;<!-- ρ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>X</mi>
+            <mo>,</mo>
+            <mi>Y</mi>
+          </mrow>
+        </msub>
+        <mo>&#x22C5;<!-- ⋅ --></mo>
+        <msub>
+          <mi>&#x03C3;<!-- σ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>Y</mi>
+          </mrow>
+        </msub>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mrow>
+              <mi>X</mi>
+              <mo>&#x2212;<!-- − --></mo>
+              <mi mathvariant="normal">E</mi>
+              <mo>&#x2061;<!-- ⁡ --></mo>
+              <mo stretchy="false">(</mo>
+              <mi>X</mi>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <msub>
+              <mi>&#x03C3;<!-- σ --></mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>X</mi>
+              </mrow>
+            </msub>
+          </mfrac>
+        </mrow>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {E} (Y\mid X)=\operatorname {E} (Y)+\rho _{X,Y}\cdot \sigma _{Y}{\frac {X-\operatorname {E} (X)}{\sigma _{X}}},}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/af076912b1a34e7601d3c7b0ddd4bfd564938ba0" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.171ex; width:40.901ex; height:6.009ex;" alt="{\displaystyle \operatorname {E} (Y\mid X)=\operatorname {E} (Y)+\rho _{X,Y}\cdot \sigma _{Y}{\frac {X-\operatorname {E} (X)}{\sigma _{X}}},}"/></span></dd></dl>
+<p>deonde <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \operatorname {E} (X)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi mathvariant="normal">E</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>X</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {E} (X)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/734c66846ec383f7e00c23ae4f4155f3cdc8c0fb" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:5.372ex; height:2.843ex;" alt="{\displaystyle \operatorname {E} (X)}"/></span> y <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \operatorname {E} (Y)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi mathvariant="normal">E</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>Y</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {E} (Y)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c1b57aede0eeb53a00aff72d62ee140f0b531dc5" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:5.165ex; height:2.843ex;" alt="{\displaystyle \operatorname {E} (Y)}"/></span> son los valores esperados de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle X}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>X</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle X}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/68baa052181f707c662844a465bfeeb135e82bab" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.98ex; height:2.176ex;" alt="X"/></span> y <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle Y}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Y</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle Y}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/961d67d6b454b4df2301ac571808a3538b3a6d3f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.171ex; width:1.773ex; height:2.009ex;" alt="Y"/></span>, respectivamente, y <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \sigma _{X}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>&#x03C3;<!-- σ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>X</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \sigma _{X}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/380c53c60c8301a5c80924b66363d831dfa80b9b" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:2.96ex; height:2.009ex;" alt="{\displaystyle \sigma _{X}}"/></span> y <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \sigma _{Y}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>&#x03C3;<!-- σ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>Y</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \sigma _{Y}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6a9fb889441f514e155f65e77dc5b7c7a5a84f35" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:2.814ex; height:2.009ex;" alt="{\displaystyle \sigma _{Y}}"/></span> son las desviaciones estándar de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle X}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>X</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle X}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/68baa052181f707c662844a465bfeeb135e82bab" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.98ex; height:2.176ex;" alt="X"/></span> y <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle Y}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Y</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle Y}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/961d67d6b454b4df2301ac571808a3538b3a6d3f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.171ex; width:1.773ex; height:2.009ex;" alt="Y"/></span>, respectivamente.
+</p><p><br />
+La correlación empírica <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle r}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>r</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle r}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0d1ecb613aa2984f0576f70f86650b7c2a132538" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.049ex; height:1.676ex;" alt="r"/></span> es una <a href="/wiki/Estimaci%C3%B3n" class="mw-disambig" title="Estimación">estimación</a> del coeficiente de correlación <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \rho }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>&#x03C1;<!-- ρ --></mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \rho }</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1f7d439671d1289b6a816e6af7a304be40608d64" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:1.202ex; height:2.176ex;" alt="\rho "/></span>. Una estimación de distribución para <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \rho }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>&#x03C1;<!-- ρ --></mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \rho }</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1f7d439671d1289b6a816e6af7a304be40608d64" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:1.202ex; height:2.176ex;" alt="\rho "/></span> es dado por<div class="mwe-math-element"><div class="mwe-math-mathml-display mwe-math-mathml-a11y" style="display: none;"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \pi (\rho |r)={\frac {\Gamma (\nu +1)}{{\sqrt {2\pi }}\Gamma (\nu +{\frac {1}{2}})}}(1-r^{2})^{\frac {\nu -1}{2}}\cdot (1-\rho ^{2})^{\frac {\nu -2}{2}}\cdot (1-r\rho )^{\frac {1-2\nu }{2}}F\!\left({\frac {3}{2}},-{\frac {1}{2}};\nu +{\frac {1}{2}};{\frac {1+r\rho }{2}}\right)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>&#x03C0;<!-- π --></mi>
+        <mo stretchy="false">(</mo>
+        <mi>&#x03C1;<!-- ρ --></mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false">|</mo>
+        </mrow>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <mrow>
+              <mi mathvariant="normal">&#x0393;<!-- Γ --></mi>
+              <mo stretchy="false">(</mo>
+              <mi>&#x03BD;<!-- ν --></mi>
+              <mo>+</mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <msqrt>
+                  <mn>2</mn>
+                  <mi>&#x03C0;<!-- π --></mi>
+                </msqrt>
+              </mrow>
+              <mi mathvariant="normal">&#x0393;<!-- Γ --></mi>
+              <mo stretchy="false">(</mo>
+              <mi>&#x03BD;<!-- ν --></mi>
+              <mo>+</mo>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mfrac>
+                  <mn>1</mn>
+                  <mn>2</mn>
+                </mfrac>
+              </mrow>
+              <mo stretchy="false">)</mo>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mn>1</mn>
+        <mo>&#x2212;<!-- − --></mo>
+        <msup>
+          <mi>r</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msup>
+        <msup>
+          <mo stretchy="false">)</mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mrow>
+                <mi>&#x03BD;<!-- ν --></mi>
+                <mo>&#x2212;<!-- − --></mo>
+                <mn>1</mn>
+              </mrow>
+              <mn>2</mn>
+            </mfrac>
+          </mrow>
+        </msup>
+        <mo>&#x22C5;<!-- ⋅ --></mo>
+        <mo stretchy="false">(</mo>
+        <mn>1</mn>
+        <mo>&#x2212;<!-- − --></mo>
+        <msup>
+          <mi>&#x03C1;<!-- ρ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msup>
+        <msup>
+          <mo stretchy="false">)</mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mrow>
+                <mi>&#x03BD;<!-- ν --></mi>
+                <mo>&#x2212;<!-- − --></mo>
+                <mn>2</mn>
+              </mrow>
+              <mn>2</mn>
+            </mfrac>
+          </mrow>
+        </msup>
+        <mo>&#x22C5;<!-- ⋅ --></mo>
+        <mo stretchy="false">(</mo>
+        <mn>1</mn>
+        <mo>&#x2212;<!-- − --></mo>
+        <mi>r</mi>
+        <mi>&#x03C1;<!-- ρ --></mi>
+        <msup>
+          <mo stretchy="false">)</mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mrow>
+                <mn>1</mn>
+                <mo>&#x2212;<!-- − --></mo>
+                <mn>2</mn>
+                <mi>&#x03BD;<!-- ν --></mi>
+              </mrow>
+              <mn>2</mn>
+            </mfrac>
+          </mrow>
+        </msup>
+        <mi>F</mi>
+        <mspace width="negativethinmathspace" />
+        <mrow>
+          <mo>(</mo>
+          <mrow>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mn>3</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+            <mo>,</mo>
+            <mo>&#x2212;<!-- − --></mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+            <mo>;</mo>
+            <mi>&#x03BD;<!-- ν --></mi>
+            <mo>+</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+            <mo>;</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mrow>
+                  <mn>1</mn>
+                  <mo>+</mo>
+                  <mi>r</mi>
+                  <mi>&#x03C1;<!-- ρ --></mi>
+                </mrow>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+          </mrow>
+          <mo>)</mo>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \pi (\rho |r)={\frac {\Gamma (\nu +1)}{{\sqrt {2\pi }}\Gamma (\nu +{\frac {1}{2}})}}(1-r^{2})^{\frac {\nu -1}{2}}\cdot (1-\rho ^{2})^{\frac {\nu -2}{2}}\cdot (1-r\rho )^{\frac {1-2\nu }{2}}F\!\left({\frac {3}{2}},-{\frac {1}{2}};\nu +{\frac {1}{2}};{\frac {1+r\rho }{2}}\right)}</annotation>
+  </semantics>
+</math></div><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1060acdf53934db2b4ae8dc235af4627c43c3575" class="mwe-math-fallback-image-display" aria-hidden="true" style="vertical-align: -3.338ex; width:89.141ex; height:7.176ex;" alt="{\displaystyle \pi (\rho |r)={\frac {\Gamma (\nu +1)}{{\sqrt {2\pi }}\Gamma (\nu +{\frac {1}{2}})}}(1-r^{2})^{\frac {\nu -1}{2}}\cdot (1-\rho ^{2})^{\frac {\nu -2}{2}}\cdot (1-r\rho )^{\frac {1-2\nu }{2}}F\!\left({\frac {3}{2}},-{\frac {1}{2}};\nu +{\frac {1}{2}};{\frac {1+r\rho }{2}}\right)}"/></div>donde <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle F}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>F</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle F}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/545fd099af8541605f7ee55f08225526be88ce57" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.741ex; height:2.176ex;" alt="F"/></span> es la <a href="/w/index.php?title=Funci%C3%B3n_hipergeom%C3%A9trica_gaussiana&amp;action=edit&amp;redlink=1" class="new" title="Función hipergeométrica gaussiana (aún no redactado)">función hipergeométrica gaussiana</a> y <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \nu =N-1&gt;1}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>&#x03BD;<!-- ν --></mi>
+        <mo>=</mo>
+        <mi>N</mi>
+        <mo>&#x2212;<!-- − --></mo>
+        <mn>1</mn>
+        <mo>&gt;</mo>
+        <mn>1</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \nu =N-1&gt;1}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2df5237dcedd6c943aabdcf53e30696e6c4fe717" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.505ex; width:14.658ex; height:2.343ex;" alt="{\displaystyle \nu =N-1&gt;1}"/></span> . Esta densidad es tanto una densidad bayesiana <a href="/w/index.php?title=Probabilidad_posterior&amp;action=edit&amp;redlink=1" class="new" title="Probabilidad posterior (aún no redactado)">posterior</a> como una densidad óptima exacta de <a href="/w/index.php?title=Distribuci%C3%B3n_de_confianza&amp;action=edit&amp;redlink=1" class="new" title="Distribución de confianza (aún no redactado)">distribución de confianza</a>.<sup id="cite_ref-3" class="reference separada"><a href="#cite_note-3"><span class="corchete-llamada">[</span>3<span class="corchete-llamada">]</span></a></sup>&#8203;<sup id="cite_ref-4" class="reference separada"><a href="#cite_note-4"><span class="corchete-llamada">[</span>4<span class="corchete-llamada">]</span></a></sup>&#8203;
+</p>
+<h2><span class="mw-headline" id="Referencias">Referencias</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=edit&amp;section=6" title="Editar sección: Referencias">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="listaref" style="list-style-type: decimal;"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">Kenney, J. F. and Keeping, E. S., <i>Mathematics of Statistics</i>, Pt. 2, 2nd ed. Princeton, NJ: Van Nostrand, 1951.</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/CorrelationCoefficientBivariateNormalDistribution.html">Correlation Coefficient - Bivariate Normal Distribution</a></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><span id="CITAREFTaraldsen2021" class="citation publicación">Taraldsen, Gunnar (2021). <a rel="nofollow" class="external text" href="https://doi.org/10.1007/s13171-021-00267-y">«The Confidence Density for Correlation»</a>. <i>Sankhya A</i> <span style="color:#555;">(en inglés)</span>. <small><a href="/wiki/ISSN" class="mw-redirect" title="ISSN">ISSN</a>&#160;<a rel="nofollow" class="external text" href="//portal.issn.org/resource/issn/0976-8378">0976-8378</a></small>. <small><a href="/wiki/Semantic_Scholar" title="Semantic Scholar">S2CID</a>&#160;<a rel="nofollow" class="external text" href="https://api.semanticscholar.org/CorpusID:244594067">244594067</a></small>. <small><a href="/wiki/Digital_object_identifier" class="mw-redirect" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="https://dx.doi.org/10.1007%2Fs13171-021-00267-y">10.1007/s13171-021-00267-y</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;pre=244594067&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3ACorrelaci%C3%B3n&amp;rft.atitle=The+Confidence+Density+for+Correlation&amp;rft.au=Taraldsen%2C+Gunnar&amp;rft.aufirst=Gunnar&amp;rft.aulast=Taraldsen&amp;rft.date=2021&amp;rft.genre=article&amp;rft.issn=0976-8378&amp;rft.jtitle=Sankhya+A&amp;rft_id=https%3A%2F%2Fdoi.org%2F10.1007%2Fs13171-021-00267-y&amp;rft_id=info%3Adoi%2F10.1007%2Fs13171-021-00267-y&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text"><span id="CITAREFTaraldsen2020" class="citation publicación">Taraldsen, Gunnar (2020). <a rel="nofollow" class="external text" href="http://rgdoi.net/10.13140/RG.2.2.23673.49769"><i>Confidence in Correlation</i></a> <span style="color:#555;">(en inglés)</span>. <small><a href="/wiki/Digital_object_identifier" class="mw-redirect" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="https://dx.doi.org/10.13140%2FRG.2.2.23673.49769">10.13140/RG.2.2.23673.49769</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3ACorrelaci%C3%B3n&amp;rft.au=Taraldsen%2C+Gunnar&amp;rft.aufirst=Gunnar&amp;rft.aulast=Taraldsen&amp;rft.btitle=Confidence+in+Correlation&amp;rft.date=2020&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Frgdoi.net%2F10.13140%2FRG.2.2.23673.49769&amp;rft_id=info%3Adoi%2F10.13140%2FRG.2.2.23673.49769&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+</ol></div>
+<h2><span id="Para_m.C3.A1s_informaci.C3.B3n"></span><span class="mw-headline" id="Para_más_información">Para más información</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=edit&amp;section=7" title="Editar sección: Para más información">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><span id="CITAREFCohen,_J.Cohen_P.West,_S.G.Aiken,_L.S.2002" class="citation libro">Cohen, J.; Cohen P.; West, S.G.; <a href="/w/index.php?title=Leona_S._Aiken&amp;action=edit&amp;redlink=1" class="new" title="Leona S. Aiken (aún no redactado)">Aiken, L.S.</a> (2002). <i>Applied multiple regression/correlation analysis for the behavioral sciences</i> (3rd edición). Psychology Press. <small><a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Especial:FuentesDeLibros/978-0-8058-2223-6" title="Especial:FuentesDeLibros/978-0-8058-2223-6">978-0-8058-2223-6</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3ACorrelaci%C3%B3n&amp;rft.au=Aiken%2C+L.S.&amp;rft.au=Cohen%2C+J.&amp;rft.au=Cohen+P.&amp;rft.au=West%2C+S.G.&amp;rft.aulast=Cohen%2C+J.&amp;rft.btitle=Applied+multiple+regression%2Fcorrelation+analysis+for+the+behavioral+sciences&amp;rft.date=2002&amp;rft.edition=3rd&amp;rft.genre=book&amp;rft.isbn=978-0-8058-2223-6&amp;rft.pub=Psychology+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><span id="CITAREFHazewinkel2001" class="citation">Hazewinkel, Michiel, ed. (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/c026560">«Correlation (in statistics)»</a>, <i><a href="/wiki/Encyclopaedia_of_Mathematics" title="Encyclopaedia of Mathematics">Encyclopaedia of Mathematics</a></i> <span style="color:#555;">(en inglés)</span>, Springer, <small><a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Especial:FuentesDeLibros/978-1556080104" title="Especial:FuentesDeLibros/978-1556080104">978-1556080104</a></small></span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3ACorrelaci%C3%B3n&amp;rft.atitle=Encyclopaedia+of+Mathematics&amp;rft.btitle=Correlation+%28in+statistics%29&amp;rft.date=2001&amp;rft.genre=bookitem&amp;rft.isbn=978-1556080104&amp;rft.pub=Springer&amp;rft_id=http%3A%2F%2Fwww.encyclopediaofmath.org%2Findex.php%3Ftitle%3Dp%2Fc026560&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span>.</li>
+<li><span id="CITAREFOestreicherFebruary_26,_2015" class="citation libro">Oestreicher, J. &amp; D. R. (February 26, 2015). <i>Plague of Equals: A science thriller of international disease, politics and drug discovery</i>. California: Omega Cat Press. p.&#160;408. <small><a href="/wiki/ISBN" title="ISBN">ISBN</a>&#160;<a href="/wiki/Especial:FuentesDeLibros/978-0963175540" title="Especial:FuentesDeLibros/978-0963175540">978-0963175540</a></small>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fes.wikipedia.org%3ACorrelaci%C3%B3n&amp;rft.au=Oestreicher%2C+J.+%26+D.+R.&amp;rft.aufirst=J.+%26+D.+R.&amp;rft.aulast=Oestreicher&amp;rft.btitle=Plague+of+Equals%3A+A+science+thriller+of+international+disease%2C+politics+and+drug+discovery&amp;rft.date=February+26%2C+2015&amp;rft.genre=book&amp;rft.isbn=978-0963175540&amp;rft.pages=408&amp;rft.place=California&amp;rft.pub=Omega+Cat+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li></ul>
+<h2><span class="mw-headline" id="Enlaces_externos">Enlaces externos</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=edit&amp;section=8" title="Editar sección: Enlaces externos">editar</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/20px-Wiktionary-logo.svg.png" decoding="async" width="20" height="19" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/30px-Wiktionary-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/40px-Wiktionary-logo.svg.png 2x" data-file-width="370" data-file-height="350" /> <a href="/wiki/Wikcionario" title="Wikcionario">Wikcionario</a>  tiene definiciones y otra información sobre <b><a href="https://es.wiktionary.org/wiki/correlaci%C3%B3n" class="extiw" title="wikt:correlación">correlación</a></b>.</li>
+<li><a rel="nofollow" class="external text" href="http://www.divestadistica.es/es/diccionario_estadistico.html#C">Diccionario Estadístico - Divestadística</a> (en castellano)</li>
+<li><span class="broken-link"><a rel="nofollow" class="external autonumber" href="http://cajael.com/mestadisticos/T1EDescriptiva/node20.php">[1]</a></span> <span class="plainlinks" style="background-color: lightyellow; font-size:85%">(<a href="/wiki/Ayuda:C%C3%B3mo_recuperar_un_enlace_roto" title="Ayuda:Cómo recuperar un enlace roto">enlace roto</a> disponible en <a href="/wiki/Internet_Archive" title="Internet Archive">Internet Archive</a>; véase el <a rel="nofollow" class="external text" href="//web.archive.org/web/*/http://cajael.com/mestadisticos/T1EDescriptiva/node20.php">historial</a>, la <a rel="nofollow" class="external text" href="//web.archive.org/web/1/http://cajael.com/mestadisticos/T1EDescriptiva/node20.php">primera versión</a> y la <a rel="nofollow" class="external text" href="//web.archive.org/web/2/http://cajael.com/mestadisticos/T1EDescriptiva/node20.php">última</a>).</span> Simulación de la correlación entre dos variables discretas con <a href="/wiki/R_(lenguaje_de_programaci%C3%B3n)" title="R (lenguaje de programación)">R (lenguaje de programación)</a></li></ul>
+<style data-mw-deduplicate="TemplateStyles:r149592108">.mw-parser-output .mw-authority-control{margin-top:1.5em}.mw-parser-output .mw-authority-control .navbox table{margin:0}.mw-parser-output .mw-authority-control .navbox hr:last-child{display:none}.mw-parser-output .mw-authority-control .navbox+.mw-mf-linked-projects{display:none}.mw-parser-output .mw-authority-control .mw-mf-linked-projects{display:flex;padding:0.5em;border:1px solid #c8ccd1;background-color:#eaecf0;color:#222222}.mw-parser-output .mw-authority-control .mw-mf-linked-projects ul li{margin-bottom:0}</style><div class="mw-authority-control"><div role="navigation" class="navbox" aria-label="Navbox" style="width: inherit;padding:3px"><table class="hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="row" class="navbox-group" style="width: 12%; text-align:center;"><a href="/wiki/Control_de_autoridades" title="Control de autoridades">Control de autoridades</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><b>Proyectos Wikimedia</b></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q186290" class="extiw" title="wikidata:Q186290">Q186290</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikimedia_Commons" title="Commonscat"><img alt="Commonscat" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" decoding="async" width="15" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/23px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Multimedia:</span> <span class="uid"><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Correlation">Correlation</a></span> / <span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&amp;search=%22Q186290%22">Q186290</a></span></span></li></ul>
+<hr />
+<ul><li><b>Identificadores</b></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_de_Francia" title="Biblioteca Nacional de Francia">BNF</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb11978503n">11978503n</a> <a rel="nofollow" class="external text" href="http://data.bnf.fr/ark:/12148/cb11978503n">(data)</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Gemeinsame_Normdatei" title="Gemeinsame Normdatei">GND</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/4165343-9">4165343-9</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Library_of_Congress_Control_Number" title="Library of Congress Control Number">LCCN</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/sh85033032">sh85033032</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Biblioteca_Nacional_de_Israel" title="Biblioteca Nacional de Israel">NLI</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007567883105171">987007567883105171</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Art_%26_Architecture_Thesaurus" title="Art &amp; Architecture Thesaurus">AAT</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://www.getty.edu/vow/AATFullDisplay?find=&amp;logic=AND&amp;note=&amp;subjectid=300055651">300055651</a></span></li>
+<li><b>Diccionarios y enciclopedias</b></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Enciclopedia_Brit%C3%A1nica" title="Enciclopedia Británica">Britannica</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://www.britannica.com/science/correlation">url</a></span></li>
+<li><b>Identificadores médicos</b></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Medical_Subject_Headings" title="Medical Subject Headings">MeSH</a>:</span> <span class="uid"><a rel="nofollow" class="external text" href="https://meshb.nlm.nih.gov/record/ui?ui=D000078331">D000078331</a></span></li></ul>
+</div></td></tr></tbody></table></div><div class="mw-mf-linked-projects hlist">
+<ul><li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata"><img alt="Wd" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png" decoding="async" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png 2x" data-file-width="1050" data-file-height="590" /></a> Datos:</span> <span class="uid"><a href="https://www.wikidata.org/wiki/Q186290" class="extiw" title="wikidata:Q186290">Q186290</a></span></li>
+<li><span style="white-space:nowrap;"><a href="/wiki/Wikimedia_Commons" title="Commonscat"><img alt="Commonscat" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" decoding="async" width="15" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/23px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a> Multimedia:</span> <span class="uid"><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Correlation">Correlation</a></span> / <span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&amp;search=%22Q186290%22">Q186290</a></span></span></li></ul>
+</div></div>
+<!-- 
+NewPP limit report
+Parsed by mw1349
+Cached time: 20230426152406
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.384 seconds
+Real time usage: 0.486 seconds
+Preprocessor visited node count: 892/1000000
+Post‐expand include size: 21731/2097152 bytes
+Template argument size: 1154/2097152 bytes
+Highest expansion depth: 7/100
+Expensive parser function count: 8/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6460/5000000 bytes
+Lua time usage: 0.238/10.000 seconds
+Lua memory usage: 4508670/52428800 bytes
+Number of Wikibase entities loaded: 9/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  350.275      1 -total
+ 78.10%  273.570      1 Plantilla:Control_de_autoridades
+  9.52%   33.357      1 Plantilla:Listaref
+  7.98%   27.943      2 Plantilla:Cite_journal
+  4.25%   14.884      1 Plantilla:Otros_usos
+  3.66%   12.814      1 Plantilla:Texto_de_la_coletilla_del_título
+  2.09%    7.318      2 Plantilla:Cite_book
+  1.91%    6.679      1 Plantilla:Springer
+  1.41%    4.948      9 Plantilla:Ecuación
+  1.29%    4.515      1 Plantilla:Obra_citada
+-->
+
+<!-- Saved in parser cache with key eswiki:pcache:idhash:663418-0!canonical and timestamp 20230426152405 and revision id 149887765. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="//es.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Obtenido de «<a dir="ltr" href="https://es.wikipedia.org/w/index.php?title=Correlación&amp;oldid=149887765">https://es.wikipedia.org/w/index.php?title=Correlación&amp;oldid=149887765</a>»</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="/wiki/Categor%C3%ADa:Covarianza_y_correlaci%C3%B3n" title="Categoría:Covarianza y correlación">Covarianza y correlación</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Categorías ocultas: <ul><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_enlaces_externos_rotos" title="Categoría:Wikipedia:Artículos con enlaces externos rotos">Wikipedia:Artículos con enlaces externos rotos</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_BNF" title="Categoría:Wikipedia:Artículos con identificadores BNF">Wikipedia:Artículos con identificadores BNF</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_GND" title="Categoría:Wikipedia:Artículos con identificadores GND">Wikipedia:Artículos con identificadores GND</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_LCCN" title="Categoría:Wikipedia:Artículos con identificadores LCCN">Wikipedia:Artículos con identificadores LCCN</a></li><li><a href="/wiki/Categor%C3%ADa:Wikipedia:Art%C3%ADculos_con_identificadores_AAT" title="Categoría:Wikipedia:Artículos con identificadores AAT">Wikipedia:Artículos con identificadores AAT</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Menú de navegación</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas personales</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-anonuserpage" class="mw-list-item"><span title="La página de usuario de la IP desde la que editas">No has accedido</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Especial:MiDiscusi%C3%B3n" title="Discusión sobre ediciones hechas desde esta dirección IP [n]" accesskey="n"><span>Discusión</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Especial:MisContribuciones" title="Una lista de modificaciones hechas desde esta dirección IP [y]" accesskey="y"><span>Contribuciones</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Especial:Crear_una_cuenta&amp;returnto=Correlaci%C3%B3n" title="Te recomendamos crear una cuenta e iniciar sesión; sin embargo, no es obligatorio"><span>Crear una cuenta</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Especial:Entrar&amp;returnto=Correlaci%C3%B3n" title="Te recomendamos iniciar sesión, aunque no es obligatorio [o]" accesskey="o"><span>Acceder</span></a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Espacios de nombres</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/Correlaci%C3%B3n" title="Ver la página de contenido [c]" accesskey="c"><span>Artículo</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Discusi%C3%B3n:Correlaci%C3%B3n" rel="discussion" title="Discusión acerca de la página [t]" accesskey="t"><span>Discusión</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		 aria-label="Cambiar variante de idioma"
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">español</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Vistas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="/wiki/Correlaci%C3%B3n"><span>Leer</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=edit" title="Editar esta página [e]" accesskey="e"><span>Editar</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=history" title="Versiones anteriores de esta página [h]" accesskey="h"><span>Ver historial</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="Más opciones" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Más</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div>
+		<form action="/w/index.php" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-navigation">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Buscar en Wikipedia" aria-label="Buscar en Wikipedia" autocapitalize="sentences" title="Buscar en este wiki [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Especial:Buscar">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Busca páginas con este texto." value="Buscar">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Ir a la página con este nombre exacto si existe" value="Ir">
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/Wikipedia:Portada"
+			title="Visitar la página principal"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navegación</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipedia:Portada" title="Visitar la página principal [z]" accesskey="z"><span>Portada</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Portal:Comunidad" title="Acerca del proyecto, lo que puedes hacer, dónde encontrar información"><span>Portal de la comunidad</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Actualidad" title="Encuentra información de contexto sobre acontecimientos actuales"><span>Actualidad</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Especial:CambiosRecientes" title="Lista de cambios recientes en la wiki [r]" accesskey="r"><span>Cambios recientes</span></a></li><li id="n-newpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasNuevas"><span>Páginas nuevas</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Especial:Aleatoria" title="Cargar una página al azar [x]" accesskey="x"><span>Página aleatoria</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Ayuda:Contenidos" title="El lugar para aprender"><span>Ayuda</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_es.wikipedia.org&amp;uselang=es" title="Apóyanos"><span>Donaciones</span></a></li><li id="n-bug_in_article" class="mw-list-item"><a href="/wiki/Wikipedia:Informes_de_error"><span>Notificar un error</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Herramientas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Especial:LoQueEnlazaAqu%C3%AD/Correlaci%C3%B3n" title="Lista de todas las páginas de la wiki que enlazan aquí [j]" accesskey="j"><span>Lo que enlaza aquí</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Especial:CambiosEnEnlazadas/Correlaci%C3%B3n" rel="nofollow" title="Cambios recientes en las páginas que enlazan con esta [k]" accesskey="k"><span>Cambios en enlazadas</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=es" title="Subir archivos [u]" accesskey="u"><span>Subir archivo</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Especial:P%C3%A1ginasEspeciales" title="Lista de todas las páginas especiales [q]" accesskey="q"><span>Páginas especiales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Correlaci%C3%B3n&amp;oldid=149887765" title="Enlace permanente a esta versión de la página"><span>Enlace permanente</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Correlaci%C3%B3n&amp;action=info" title="Más información sobre esta página"><span>Información de la página</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Especial:Citar&amp;page=Correlaci%C3%B3n&amp;id=149887765&amp;wpFormIdentifier=titleform" title="Información sobre cómo citar esta página"><span>Citar esta página</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q186290" title="Enlace al elemento conectado del repositorio de datos [g]" accesskey="g"><span>Elemento de Wikidata</span></a></li></ul>
+		
+	</div>
+</nav>
+
+<nav id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" role="navigation"  >
+	<h3
+		id="p-coll-print_export-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Imprimir/exportar</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Especial:Libro&amp;bookcmd=book_creator&amp;referer=Correlaci%C3%B3n"><span>Crear un libro</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Especial:DownloadAsPdf&amp;page=Correlaci%C3%B3n&amp;action=show-download-screen"><span>Descargar como PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Correlaci%C3%B3n&amp;printable=yes" title="Versión imprimible de esta página [p]" accesskey="p"><span>Versión para imprimir</span></a></li></ul>
+		
+	</div>
+</nav>
+
+<nav id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" aria-labelledby="p-wikibase-otherprojects-label" role="navigation"  >
+	<h3
+		id="p-wikibase-otherprojects-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">En otros proyectos</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Correlation" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-lang" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">En otros idiomas</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7_(%D8%A5%D8%AD%D8%B5%D8%A7%D8%A1)" title="ارتباط (إحصاء) (árabe)" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a href="https://ast.wikipedia.org/wiki/Correlaci%C3%B3n" title="Correlación (asturiano)" lang="ast" hreflang="ast" class="interlanguage-link-target"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a href="https://az.wikipedia.org/wiki/Korrelyasiya" title="Korrelyasiya (azerbaiyano)" lang="az" hreflang="az" class="interlanguage-link-target"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%8D%D0%BB%D1%8F%D1%86%D1%8B%D1%8F" title="Карэляцыя (bielorruso)" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a href="https://be-tarask.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%8D%D0%BB%D1%8F%D1%86%D1%8B%D1%8F" title="Карэляцыя (Belarusian (Taraškievica orthography))" lang="be-tarask" hreflang="be-tarask" class="interlanguage-link-target"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%BB%D0%B0%D1%86%D0%B8%D1%8F" title="Корелация (búlgaro)" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a href="https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%B7_%E0%A6%93_%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A6%B0%E0%A6%B6%E0%A7%80%E0%A6%B2%E0%A6%A4%E0%A6%BE" title="সংশ্লেষ ও নির্ভরশীলতা (bengalí)" lang="bn" hreflang="bn" class="interlanguage-link-target"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a href="https://bs.wikipedia.org/wiki/Koeficijent_korelacije" title="Koeficijent korelacije (bosnio)" lang="bs" hreflang="bs" class="interlanguage-link-target"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Correlaci%C3%B3" title="Correlació (catalán)" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Korelace" title="Korelace (checo)" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/Korrelation" title="Korrelation (danés)" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Korrelation" title="Korrelation (alemán)" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%A3%CF%85%CF%83%CF%87%CE%AD%CF%84%CE%B9%CF%83%CE%B7_%CE%BA%CE%B1%CE%B9_%CE%B5%CE%BE%CE%AC%CF%81%CF%84%CE%B7%CF%83%CE%B7_(%CE%A3%CF%84%CE%B1%CF%84%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CE%AE)" title="Συσχέτιση και εξάρτηση (Στατιστική) (griego)" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Correlation" title="Correlation (inglés)" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Korelacio" title="Korelacio (esperanto)" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a href="https://et.wikipedia.org/wiki/Korrelatsioon" title="Korrelatsioon (estonio)" lang="et" hreflang="et" class="interlanguage-link-target"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Korrelazio" title="Korrelazio (euskera)" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D9%87%D9%85%D8%A8%D8%B3%D8%AA%DA%AF%DB%8C_%D9%88_%D9%88%D8%A7%D8%A8%D8%B3%D8%AA%DA%AF%DB%8C" title="همبستگی و وابستگی (persa)" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Korrelaatio" title="Korrelaatio (finés)" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Corr%C3%A9lation_(statistiques)" title="Corrélation (statistiques) (francés)" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a href="https://ga.wikipedia.org/wiki/Comhghaol%C3%BA" title="Comhghaolú (irlandés)" lang="ga" hreflang="ga" class="interlanguage-link-target"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Correlaci%C3%B3n" title="Correlación (gallego)" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%9E%D7%AA%D7%90%D7%9D" title="מתאם (hebreo)" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%B9%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7" title="सहसम्बन्ध (hindi)" lang="hi" hreflang="hi" class="interlanguage-link-target"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Korrel%C3%A1ci%C3%B3" title="Korreláció (húngaro)" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a href="https://hy.wikipedia.org/wiki/%D4%BF%D5%B8%D5%BC%D5%A5%D5%AC%D5%B5%D5%A1%D6%81%D5%AB%D5%A1_(%D5%B4%D5%A1%D5%A9%D5%A5%D5%B4%D5%A1%D5%BF%D5%AB%D5%AF%D5%A1)" title="Կոռելյացիա (մաթեմատիկա) (armenio)" lang="hy" hreflang="hy" class="interlanguage-link-target"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Korelasi" title="Korelasi (indonesio)" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Correlazione_(statistica)" title="Correlazione (statistica) (italiano)" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%96%A2" title="相関 (japonés)" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jv mw-list-item"><a href="https://jv.wikipedia.org/wiki/Analisis_kor%C3%A9lasi" title="Analisis korélasi (javanés)" lang="jv" hreflang="jv" class="interlanguage-link-target"><span>Jawa</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a href="https://kk.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D1%8F" title="Корреляция (kazajo)" lang="kk" hreflang="kk" class="interlanguage-link-target"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%83%81%EA%B4%80_%EB%B6%84%EC%84%9D" title="상관 분석 (coreano)" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a href="https://ky.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D1%8F" title="Корреляция (kirguís)" lang="ky" hreflang="ky" class="interlanguage-link-target"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a href="https://lt.wikipedia.org/wiki/Koreliacija" title="Koreliacija (lituano)" lang="lt" hreflang="lt" class="interlanguage-link-target"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wikipedia.org/wiki/Korel%C4%81cija" title="Korelācija (letón)" lang="lv" hreflang="lv" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a href="https://mk.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%BB%D0%B0%D1%86%D0%B8%D1%98%D0%B0" title="Корелација (macedonio)" lang="mk" hreflang="mk" class="interlanguage-link-target"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Correlatie" title="Correlatie (neerlandés)" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a href="https://nn.wikipedia.org/wiki/Korrelasjon" title="Korrelasjon (noruego nynorsk)" lang="nn" hreflang="nn" class="interlanguage-link-target"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Korrelasjon" title="Korrelasjon (noruego bokmal)" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Zale%C5%BCno%C5%9B%C4%87_zmiennych_losowych" title="Zależność zmiennych losowych (polaco)" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Correla%C3%A7%C3%A3o" title="Correlação (portugués)" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Corela%C8%9Bie" title="Corelație (rumano)" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D1%8F" title="Корреляция (ruso)" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sd mw-list-item"><a href="https://sd.wikipedia.org/wiki/%DA%AF%DA%8F%D9%8A%D9%84_%D9%84%D8%A7%DA%B3%D8%A7%D9%BE%D9%88" title="گڏيل لاڳاپو (sindi)" lang="sd" hreflang="sd" class="interlanguage-link-target"><span>سنڌي</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Korelacija" title="Korelacija (serbocroata)" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wikipedia.org/wiki/Correlation" title="Correlation (Simple English)" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Korel%C3%A1cia_(%C5%A1tatistika)" title="Korelácia (štatistika) (eslovaco)" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Korelacija" title="Korelacija (esloveno)" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%BB%D0%B0%D1%86%D0%B8%D1%98%D0%B0" title="Корелација (serbio)" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a href="https://su.wikipedia.org/wiki/Kor%C3%A9lasi" title="Korélasi (sundanés)" lang="su" hreflang="su" class="interlanguage-link-target"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Korrelation" title="Korrelation (sueco)" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Uhusiano_(Takwimu)" title="Uhusiano (Takwimu) (suajili)" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a href="https://th.wikipedia.org/wiki/%E0%B8%AA%E0%B8%AB%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C" title="สหสัมพันธ์ (tailandés)" lang="th" hreflang="th" class="interlanguage-link-target"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a href="https://tl.wikipedia.org/wiki/Korelasyon_at_dependiyensiya" title="Korelasyon at dependiyensiya (tagalo)" lang="tl" hreflang="tl" class="interlanguage-link-target"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Korelasyon" title="Korelasyon (turco)" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D1%96%D1%8F" title="Кореляція (ucraniano)" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a href="https://ur.wikipedia.org/wiki/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7" title="ارتباط (urdu)" lang="ur" hreflang="ur" class="interlanguage-link-target"><span>اردو</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/H%E1%BB%87_s%E1%BB%91_t%C6%B0%C6%A1ng_quan" title="Hệ số tương quan (vietnamita)" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a href="https://wuu.wikipedia.org/wiki/%E7%9B%B8%E5%85%B3" title="相关 (chino wu)" lang="wuu" hreflang="wuu" class="interlanguage-link-target"><span>吴语</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E7%9B%B8%E5%85%B3_(%E6%A6%82%E7%8E%87%E8%AE%BA)" title="相关 (概率论) (chino)" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a href="https://zh-yue.wikipedia.org/wiki/%E7%B5%B1%E8%A8%88%E7%9B%B8%E9%97%9C" title="統計相關 (cantonés)" lang="yue" hreflang="yue" class="interlanguage-link-target"><span>粵語</span></a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q186290#sitelinks-wikipedia" title="Editar enlaces interlingüísticos" class="wbc-editpage">Editar enlaces</a></span></div>
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> Esta página se editó por última vez el 14 mar 2023 a las 22:27.</li>
+	<li id="footer-info-copyright">El texto está disponible bajo la <a rel="license" href="//es.wikipedia.org/wiki/Wikipedia:Texto_de_la_Licencia_Creative_Commons_Atribuci%C3%B3n-CompartirIgual_3.0_Unported">Licencia Creative Commons Atribución Compartir Igual 3.0</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+pueden aplicarse cláusulas adicionales. Al usar este sitio, usted acepta nuestros <a href="//wikimediafoundation.org/wiki/Terms_of_Use">términos de uso</a> y nuestra <a href="//wikimediafoundation.org/wiki/Privacy_policy">política de privacidad</a>. <br/>Wikipedia&reg; es una marca registrada de la <a href="//www.wikimediafoundation.org/">Fundación Wikimedia, Inc.</a>, una organización sin ánimo de lucro.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/es">Política de privacidad</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:Acerca_de">Acerca de Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:Limitaci%C3%B3n_general_de_responsabilidad">Limitación de responsabilidad</a></li>
+	<li id="footer-places-mobileview"><a href="//es.m.wikipedia.org/w/index.php?title=Correlaci%C3%B3n&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Versión para móviles</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Desarrolladores</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/es.wikipedia.org">Estadísticas</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement/es">Declaración de cookies</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1353","wgBackendResponseTime":116,"wgPageParseReport":{"limitreport":{"cputime":"0.384","walltime":"0.486","ppvisitednodes":{"value":892,"limit":1000000},"postexpandincludesize":{"value":21731,"limit":2097152},"templateargumentsize":{"value":1154,"limit":2097152},"expansiondepth":{"value":7,"limit":100},"expensivefunctioncount":{"value":8,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":6460,"limit":5000000},"entityaccesscount":{"value":9,"limit":400},"timingprofile":["100.00%  350.275      1 -total"," 78.10%  273.570      1 Plantilla:Control_de_autoridades","  9.52%   33.357      1 Plantilla:Listaref","  7.98%   27.943      2 Plantilla:Cite_journal","  4.25%   14.884      1 Plantilla:Otros_usos","  3.66%   12.814      1 Plantilla:Texto_de_la_coletilla_del_título","  2.09%    7.318      2 Plantilla:Cite_book","  1.91%    6.679      1 Plantilla:Springer","  1.41%    4.948      9 Plantilla:Ecuación","  1.29%    4.515      1 Plantilla:Obra_citada"]},"scribunto":{"limitreport-timeusage":{"value":"0.238","limit":"10.000"},"limitreport-memusage":{"value":4508670,"limit":52428800}},"cachereport":{"origin":"mw1349","timestamp":"20230426152406","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Correlaci\u00f3n","url":"https:\/\/es.wikipedia.org\/wiki\/Correlaci%C3%B3n","sameAs":"http:\/\/www.wikidata.org\/entity\/Q186290","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q186290","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-12-07T11:01:27Z","dateModified":"2023-03-14T22:27:37Z","headline":"Correlacion"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Correlaci\u00f3n","url":"https:\/\/es.wikipedia.org\/wiki\/Correlaci%C3%B3n","sameAs":"http:\/\/www.wikidata.org\/entity\/Q186290","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q186290","author":{"@type":"Organization","name":"Colaboradores de los proyectos Wikimedia"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-12-07T11:01:27Z","dateModified":"2023-03-14T22:27:37Z","headline":"Correlacion"}</script>
+</body>
+</html>
