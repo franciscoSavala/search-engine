@@ -1,5 +1,6 @@
 package com.search.searchengine.service;
 
+import com.search.searchengine.crawler.SanitizeStrategy;
 import com.search.searchengine.entity.Page;
 import com.search.searchengine.repository.PageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +27,7 @@ public class PageService {
      * @return la página guardada
      */
     @Transactional
-    public Page savePage(String html, String url){
+    public Page savePage(String html, String url, SanitizeStrategy strategy){
         String hash = getHash(html);
 
         Optional<Page> op = repository.findById(hash);
@@ -34,7 +35,7 @@ public class PageService {
 
         Optional<String> id = repository.getIdByUrl(url);
         if(id.isPresent()) repository.deleteById(id.get());
-        String content = getContent(html);
+        String content = strategy.getSanitizedContent(html);
         Page page = Page.builder()
                 .id(hash)
                 .content(content)
@@ -46,19 +47,6 @@ public class PageService {
 
     public boolean exists(String html){
         return repository.findById(getHash(html)).isPresent();
-    }
-
-    public String getContent(String html){
-        Matcher b = Pattern.compile("<body\\b[^>]*>([\\s\\S]*?)<\\/body>").matcher(html);
-        String body = null;
-        if(b.find()){
-            body = b.group();
-        }
-
-        String noTags = Pattern.compile("<([\\s\\S]*?)>|\\n").matcher(body).replaceAll(" ");
-        String noSpaces = Pattern.compile("\\s{2,}").matcher(noTags).replaceAll(" ");
-        String result = Pattern.compile("^\\s+|\\s+$").matcher(noSpaces).replaceAll("");
-        return result;
     }
 
     public String getHash(String text){

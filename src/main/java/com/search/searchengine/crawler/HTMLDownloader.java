@@ -1,5 +1,7 @@
 package com.search.searchengine.crawler;
 
+import org.springframework.stereotype.Component;
+
 import javax.swing.text.html.HTML;
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -9,7 +11,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class HTMLDownloader implements Runnable{
+@Component
+public class HTMLDownloader{
     public static String readHtml(String urlPath){
         StringBuilder sb = new StringBuilder();
         try {
@@ -29,8 +32,4 @@ public class HTMLDownloader implements Runnable{
         return sb.toString();
     }
 
-    @Override
-    public void run() {
-
-    }
 }

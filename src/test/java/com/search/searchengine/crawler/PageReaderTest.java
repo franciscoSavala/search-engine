@@ -1,8 +1,9 @@
 package com.search.searchengine.crawler;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -10,13 +11,15 @@ import java.util.Collection;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@SpringBootTest
 class PageReaderTest {
 
     private PageReader pageReader;
-
-
+    @Autowired
+    @Qualifier("wikipediaSanitizer")
+    private SanitizeStrategy strategy;
     public PageReaderTest(){
-        pageReader = new PageReader("https://es.wikipedia.org/wiki/Red_de_computadoras", 1, URLWikipediaSanitizer.getInstance());
+        pageReader = new PageReader("https://es.wikipedia.org/wiki/Red_de_computadoras", 1, strategy);
     }
 
     @Test

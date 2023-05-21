@@ -1,11 +1,13 @@
 package com.search.searchengine.service;
 
 import com.search.searchengine.crawler.PageReader;
-import com.search.searchengine.crawler.URLNoneSanitize;
-import com.search.searchengine.crawler.URLSanitizeStrategy;
-import com.search.searchengine.crawler.URLWikipediaSanitizer;
+import com.search.searchengine.crawler.NoneSanitize;
+import com.search.searchengine.crawler.SanitizeStrategy;
+import com.search.searchengine.crawler.WikipediaSanitizer;
 import com.search.searchengine.dto.PageDTO;
+import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
 
 import java.net.MalformedURLException;
@@ -16,14 +18,18 @@ import java.util.Optional;
 @Service
 public class CrawlerService {
 
-    private HashMap<String, URLSanitizeStrategy> sanitizers;
+    private HashMap<String, SanitizeStrategy> sanitizers;
     @Autowired
     private PageService pageService;
 
+    @Autowired
+    private ApplicationContext context;
 
-    public CrawlerService(){
+
+    @PostConstruct
+    public void init(){
         sanitizers = new HashMap<>();
-        sanitizers.put("wikipedia", URLWikipediaSanitizer.getInstance());
+        sanitizers.put("wikipedia", context.getBean(WikipediaSanitizer.class));
     }
 
 
@@ -34,10 +40,12 @@ public class CrawlerService {
             URL urlObject = new URL(url);
             String host = urlObject.getHost();
             String[] domains = host.split("\\.");
-            URLSanitizeStrategy strategy = URLNoneSanitize.getInstance();
+
+
+            SanitizeStrategy strategy = context.getBean(NoneSanitize.class);
             for(String domain : domains){
                 if(sanitizers.containsKey(domain)){
-                    strategy = URLWikipediaSanitizer.getInstance();
+                    strategy = sanitizers.get(domain);
                     break;
                 }
             }
@@ -47,7 +55,7 @@ public class CrawlerService {
             Optional<PageDTO> p = pageReader.readOne();
             while(p.isPresent()){
                 PageDTO page = p.get();
-                pageService.savePage(page.getHtml(), page.getPath());
+                pageService.savePage(page.getHtml(), page.getPath(), strategy);
                 p = pageReader.readOne();
             }
         } catch (MalformedURLException e) {

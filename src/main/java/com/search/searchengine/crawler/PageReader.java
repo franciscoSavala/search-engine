@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.LinkedList;
 import java.util.Optional;
@@ -24,11 +23,9 @@ public class PageReader{
     private int depth;
     private int levelSize;
 
+    private SanitizeStrategy strategy;
 
-    private URLSanitizeStrategy strategy;
-
-    @Autowired
-    public PageReader(String rootPath, Integer depth, URLSanitizeStrategy strategy) {
+    public PageReader(String rootPath, Integer depth, SanitizeStrategy strategy) {
         this.pathQueue = new LinkedList<>();
         this.pathQueue.add(rootPath);
         this.depth = depth;
