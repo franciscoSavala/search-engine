@@ -10,4 +10,5 @@ import lombok.*;
 public class PageDTO {
     private String html;
     private String path;
+    private String hash;
 }

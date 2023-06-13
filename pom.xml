@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.search</groupId>
     <artifactId>search-engine</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1</version>
     <name>search-engine</name>
     <description>search-engine</description>
     <properties>
